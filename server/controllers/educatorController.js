@@ -3,7 +3,7 @@ import Course from '../models/Course.js'
 import {v2 as cloudinary} from 'cloudinary'
 import { Purchase } from '../models/Purchase.js';
 import User from '../models/User.js'
-// import { requireAuth } from '@clerk/express'
+
 
 // Update role to educator
 export const updateRoleToEducator = async (req,res)=>{
